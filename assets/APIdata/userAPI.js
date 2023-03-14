@@ -1,7 +1,7 @@
-import {getUser} from '../fetch/fetch.js';
+import {fetchUser} from '../fetch/fetch.js';
 
 export const userData = () => {
-    getUser().then(data => {
+    fetchUser().then(data => {
         console.log(data);
     })
 }
