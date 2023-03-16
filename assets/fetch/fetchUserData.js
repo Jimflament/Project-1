@@ -24,7 +24,7 @@ export async function fetchUserData() {
     avatar.src = userInfo.avatar;
     name.innerHTML = userInfo.name;
     location.innerHTML = userInfo.location;
-    bio.innerHTML = userInfo.bio;
+    bio.innerHTML = 'Bio: ' + userInfo.bio;
   } catch (error) {
     console.log(error);
   }
