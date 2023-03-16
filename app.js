@@ -1,3 +1,2 @@
-import { fetchUserInfo } from './assets/fetch/fetchUserData.js';
-
-fetchUserInfo();
+// import routie pages
+import routie from './assets/routes/route.js';
